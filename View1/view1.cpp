@@ -21,20 +21,9 @@ Dialog::Dialog(QWidget *parent)
 	rectangle = scene->addRect(0,0,50,50,blackpen,blueBrush);
 	rectangle->setFlag(QGraphicsItem::ItemIsMovable,true);
 
-
 }
 
 Dialog::~Dialog()
 {
 
-}
-
-void Dialog::on_pushButton_Clicked()
-{
-	ui->graphicsView->rotate(-1);
-}
-
-void Dialog::on_pushButton_2_Clicked()
-{
-	ui->graphicsView->rotate(+1);
 }

@@ -1,25 +1,25 @@
-<UI version="4.0" >
- <class>View1Class</class>
- <widget class="QDialog" name="View1Class" >
-  <property name="objectName" >
-   <string notr="true">View1Class</string>
-  </property>
-  <property name="geometry" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogClass</class>
+ <widget class="QDialog" name="DialogClass">
+  <property name="geometry">
    <rect>
-	<x>0</x>
-	<y>0</y>
-	<width>600</width>
-	<height>400</height>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
    </rect>
   </property>
-  <property name="windowTitle" >
-   <string>View1</string>
+  <property name="windowTitle">
+   <string>Dialog</string>
   </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGraphicsView" name="graphicsView"/>
+   </item>
+  </layout>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
- <resources>
-   <include location="view1.qrc"/>
- </resources>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
  <connections/>
-</UI>
+</ui>

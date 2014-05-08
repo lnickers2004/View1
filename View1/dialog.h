@@ -19,6 +19,10 @@ private:
 	QGraphicsScene *scene;
 	QGraphicsEllipseItem *ellipse;
 	QGraphicsRectItem *rectangle;
+
+	//larry manual handwritten slots
+	void on_pushButton_Clicked();
+	void on_pushButton_2_Clicked();
 };
 
 #endif // Dialog_H

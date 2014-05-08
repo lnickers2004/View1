@@ -1,19 +1,24 @@
-#ifndef VIEW1_H
-#define VIEW1_H
+#ifndef Dialog_H
+#define Dialog_H
 
 #include <QtWidgets/QDialog>
-#include "ui_view1.h"
+#include "ui_Dialog.h"
+#include <QtCore>
+#include <QtGui>
 
-class View1 : public QDialog
+class Dialog : public QDialog
 {
 	Q_OBJECT
 
 public:
-	View1(QWidget *parent = 0);
-	~View1();
+	Dialog(QWidget *parent = 0);
+	~Dialog();
 
 private:
-	Ui::View1Class ui;
+	Ui::DialogClass *ui;
+	QGraphicsScene *scene;
+	QGraphicsEllipseItem *ellipse;
+	QGraphicsRectItem *rectangle;
 };
 
-#endif // VIEW1_H
+#endif // Dialog_H
