@@ -15,7 +15,10 @@ public:
 	~Dialog();
 
 private:
-	Ui::DialogClass ui;
+	Ui::DialogClass *ui;
+	QGraphicsScene *scene;
+	QGraphicsEllipseItem *ellipse;
+	QGraphicsRectItem *rectangle;
 };
 
 #endif // Dialog_H

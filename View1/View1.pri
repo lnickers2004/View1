@@ -8,9 +8,9 @@ message("You are running qmake on a generated .pro file. This may not work!")
 
 
 HEADERS += ./stdafx.h \
-    ./view1.h
-SOURCES += ./stdafx.cpp \
-    ./main.cpp \
-    ./view1.cpp
-FORMS += ./view1.ui
+    ./dialog.h
+SOURCES += ./main.cpp \
+    ./stdafx.cpp \
+    ./dialog.cpp
+FORMS += ./dialog.ui
 RESOURCES += view1.qrc
