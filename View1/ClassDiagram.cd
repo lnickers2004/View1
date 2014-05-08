@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dialog">
+    <Position X="4.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAAAAAAAAEAAAAAAAAKAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>dialog.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="rectangle" />
+      <Field Name="scene" />
+      <Field Name="ellipse" />
+      <Field Name="ui" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ui_DialogClass">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAIAAAAEAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_dialog.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="graphicsView" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ui::DialogClass">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\ui_dialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGraphicsRectItem">
+    <Position X="3.75" Y="8" Width="3" />
+    <NestedTypes>
+      <Enum Name="QGraphicsRectItem::__unnamed_enum_001c_3" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsitem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAAAQCgAAAAACIAAAAAEBAAAQAAEAAAEABAA=</HashCode>
+      <FileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGraphicsScene">
+    <Position X="7.25" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="QGraphicsScene::SceneLayer" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsscene.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BF5HCBQkAkDIrNUUYAi6aRBBAkBUgNaQGEDYAkucAQI=</HashCode>
+      <FileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsscene.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGraphicsEllipseItem">
+    <Position X="3.75" Y="12.5" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="QGraphicsEllipseItem::__unnamed_enum_001c_4" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsitem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABgAAAAAAAAQCgAgAAAAIAACAAEJAAAQggGAAAAABAA=</HashCode>
+      <FileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QGraphicsView">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <NestedTypes>
+      <Enum Name="QGraphicsView::CacheModeFlag" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsview.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="QGraphicsView::DragMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsview.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="QGraphicsView::ViewportUpdateMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsview.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="QGraphicsView::OptimizationFlag" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsview.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>FBoIACjABkHMKMAQBIhxKORiIyRUJqZgDCCBAAFSBCM=</HashCode>
+      <FileName>c:\qt\qt5.2.1\5.2.1\msvc2012\include\qtwidgets\qgraphicsview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="qt_meta_stringdata_Dialog_t">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAA=</HashCode>
+      <FileName>GeneratedFiles\Debug\moc_dialog.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
